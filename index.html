@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>DIGITALOCEAN</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.3/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button
+              type="button"
+              class="navbar-toggle collapsed"
+              data-toggle="collapse"
+              data-target="#bs-example-navbar-collapse-1"
+              aria-expanded="false"
+            >
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">DigitalOcean</a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div
+            class="collapse navbar-collapse"
+            id="bs-example-navbar-collapse-1"
+          >
+            <ul class="nav navbar-nav">
+              <li><a href="#">Products</a></li>
+              <li><a href="#">Customers</a></li>
+              <li><a href="#">Community</a></li>
+              <li><a href="#">Pricing</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Docs</a></li>
+              <li><a href="#">Support</a></li>
+              <li><a href="#">Login</a></li>
+              <li>
+                <a class="btn btn-default" href="#" role="button">Sign Up</a>
+              </li>
+            </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+      </nav>
+      <div class="jumbotron">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7">
+              <h1>The simplest cloud platform for developers &amp; teams</h1>
+              <p class="lead">
+                Deploy, manage, and scale cloud applications faster and more
+                efficiently on DigitalOcean. We make managing infrastructure
+                easy for teams and businesses, whether you're running one
+                virtual machine or ten thousand.
+              </p>
+            </div>
+            <div class="col-md-5">
+              <div class="card img-rounded text-center">
+                <h2>Deploy your app in seconds.</h2>
+                <h2>Get started now.</h2>
+                <form>
+                  <div class="form-group">
+                    <input
+                      type="email"
+                      class="form-control"
+                      id=""
+                      placeholder="Email"
+                    />
+                    <input
+                      type="password"
+                      name=""
+                      id="input"
+                      class="form-control"
+                      required="required"
+                      title=""
+                      placeholder="Password"
+                    />
+                  </div>
+                  <button type="submit" class="btn btn-primary btn-block">
+                    Create your account
+                  </button>
+                  <button type="submit" class="btn btn-default btn-block">
+                    <img src="./img/GoogleLogo.svg" alt="" id="logo-google" />
+                    Sign up with google
+                  </button>
+                </form>
+                <small
+                  >By signing up you agree to the
+                  <a href="#">Terms of Service</a>.</small
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="site-main">
+      <!-- SEZIONE LOGO -->
+      <section class="text-center logos">
+        <div class="container">
+          <div class="row">
+            <col-md-12>
+              <h4>INNOVATIVE BUSINESSES TRUST DIGITALOCEAN</h4>
+            </col-md-12>
+          </div>
+          <div class="row logo-row">
+            <div class="col-md-2 col-md-2 col-xs-6 pdg-0">
+              <div class="logo">
+                <img src="./img/docker-bab60eeb.svg" alt="" />
+              </div>
+            </div>
+            <div class="col-md-2 col-md-2 col-xs-6 pdg-0">
+              <div class="logo">
+                <img src="./img/gitlab-166e2067.svg" alt="" />
+              </div>
+            </div>
+            <div class="col-md-2 col-md-2 col-xs-6 pdg-0">
+              <div class="logo">
+                <img src="./img/slack-e20293da.svg" alt="" />
+              </div>
+            </div>
+            <div class="col-md-2 col-md-2 col-xs-6 pdg-0">
+              <div class="logo">
+                <img src="./img/hashicorp-4431df79.svg" alt="" />
+              </div>
+            </div>
+            <div class="col-md-2 col-md-2 col-xs-6 pdg-0">
+              <div class="logo">
+                <img src="./img/hashicorp-4431df79.svg" alt="" />
+              </div>
+            </div>
+            <div class="col-md-2 col-md-2 col-xs-6 pdg-0">
+              <div class="logo"><img src="./img/splunklogo.svg" alt="" /></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <a href="#"
+                >View customer stories <i class="fas fa-chevron-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /SEZIONE LOGO -->
+
+      
+      <!-- SEZIONE DEPLOY -->
+      <section class="deploy">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="deploy-text text-center">
+                <h2>Deploy and scale seamlessly</h2>
+                <p class="lead">
+                  Our optimized configuration process saves your team time when
+                  running and scaling distributed application, AI &amp; machine
+                  learning workloads, hosted services, client websites, or CI/CD
+                  environments.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <ul>
+                <li>Deploy</li>
+                <li>Manage</li>
+                <li>Secure</li>
+                <li>Scale</li>
+                <li>Monitor</li>
+              </ul>
+            </div>
+            <div class="col-md-8">
+              <div class="row">
+                <div class="col-md-6">
+                  <img src="./img/droplets-icon.svg" alt="" />
+                  <h4>Cluster deployments</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Incidunt adipisci placeat eveniet laborum natus ab delectus
+                    maxime, quae, libero eos at, quis quas? Laudantium autem
+                    nulla, aut saepe perferendis vitae?
+                  </p>
+                </div>
+                <div class="col-md-6">
+                  <img src="./img/droplets-icon.svg" alt="" />
+                  <h4>Cluster deployments</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Incidunt adipisci placeat eveniet laborum natus ab delectus
+                    maxime, quae, libero eos at, quis quas? Laudantium autem
+                    nulla, aut saepe perferendis vitae?
+                  </p>
+                </div>
+                <div class="col-md-6">
+                  <img src="./img/droplets-icon.svg" alt="" />
+                  <h4>Cluster deployments</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Incidunt adipisci placeat eveniet laborum natus ab delectus
+                    maxime, quae, libero eos at, quis quas? Laudantium autem
+                    nulla, aut saepe perferendis vitae?
+                  </p>
+                </div>
+                <div class="col-md-6">
+                  <img src="./img/droplets-icon.svg" alt="" />
+                  <h4>Cluster deployments</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Incidunt adipisci placeat eveniet laborum natus ab delectus
+                    maxime, quae, libero eos at, quis quas? Laudantium autem
+                    nulla, aut saepe perferendis vitae?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /FINE SEZIONE DEPLOY -->
+
+
+      <!-- INIZIO SEZIONE DESIGNED -->
+      <section class="designed">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <h2>Designed for developers</h2>
+              <p>
+                Build more and spend less time managing your infrastructure with
+                our easy-to-use control panel and API.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3 text-right">CHEV</div>
+            <div class="col-md-6">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Explicabo blanditiis ullam illo, assumenda unde molestias
+              perferendis sunt. Iure, perspiciatis. Quam veniam cum amet commodi
+              harum soluta cumque veritatis assumenda quas?
+            </div>
+            <div class="col-md-3">CHEV</div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <h3>Create compute servers in 55 seconds or less.</h3>
+              <i class="fas fa-circle"></i><i class="far fa-circle"></i
+              ><i class="far fa-circle"></i><i class="far fa-circle"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /FINE ZEZIONE DESIGNED -->
+
+
+      <!-- INIZIO SEZIONE FEATURES -->
+      <section class="features">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <h2>The features your business needs</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <img src="./img/icon-task-list-multiple.svg" alt="" />
+              <h4>Predictable pricing</h4>
+              <p>
+                Leave complex pricing structures behind. Always know what you'll
+                pay per month with a flat, industry-leading pricing structure.
+              </p>
+              <a href="#">Security ></a>
+            </div>
+            <div class="col-md-4">
+              <img src="./img/icon-task-list-multiple.svg" alt="" />
+              <h4>Predictable pricing</h4>
+              <p>
+                Leave complex pricing structures behind. Always know what you'll
+                pay per month with a flat, industry-leading pricing structure.
+              </p>
+              <a href="#">Security ></a>
+            </div>
+            <div class="col-md-4">
+              <img src="./img/icon-task-list-multiple.svg" alt="" />
+              <h4>Predictable pricing</h4>
+              <p>
+                Leave complex pricing structures behind. Always know what you'll
+                pay per month with a flat, industry-leading pricing structure.
+              </p>
+              <a href="#">Security ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /FINE SEZIONE FEATURES --> 
+
+
+
+
+
+
+<!-- GRIGLIA -->
+      <section id="server_data" class="site_section bg_blue">  
+        <h2 class="title text-center">Service your customers around the world from 12 regions.</h2>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs 12">
+              <div class="card_internet_test row border-bottom">
+                <div class="col-md-1 col-sm-3 col-xs-3 p_none">
+                  <p class="">AMS2</p>
+                </div>
+                <div class="col-md-6 col-md-offset-3 col-sm-6 col-xs-6 p_none">
+                  <p class="">
+                    Amsterdam, Netherlands</p>
+                </div>
+                <div class="col-md-2 col-sm-3 col-xs-3 p_none m_none text_r">
+                  <a href="#">Test speed <i class="fas fa-chevron-right"></i></a>
+                </div>
+              </div>
+              <div class="card_internet_test row border-bottom">
+                <div class="col-md-1 col-sm-3 col-xs-3 p_none">
+                  <p class="">AMS2</p>
+                </div>
+                <div class="col-md-6 col-md-offset-3 col-sm-6 col-xs-6 p_none">
+                  <p class="">
+                    Amsterdam, Netherlands</p>
+                </div>
+                <div class="col-md-2 col-sm-3 col-xs-3 p_none m_none text_r">
+                  <a href="#">Test speed <i class="fas fa-chevron-right"></i></a>
+                </div>
+              </div>
+              <div class="card_internet_test row border-bottom">
+                <div class="col-md-1 col-sm-3 col-xs-3 p_none">
+                  <p class="">AMS2</p>
+                </div>
+                <div class="col-md-6 col-md-offset-3 col-sm-6 col-xs-6 p_none">
+                  <p class="">
+                    Amsterdam, Netherlands</p>
+                </div>
+                <div class="col-md-2 col-sm-3 col-xs-3 p_none m_none text_r">
+                  <a href="#">Test speed <i class="fas fa-chevron-right"></i></a>
+                </div>
+              </div>
+              <div class="card_internet_test row border-bottom">
+                <div class="col-md-1 col-sm-3 col-xs-3 p_none">
+                  <p class="">AMS2</p>
+                </div>
+                <div class="col-md-6 col-md-offset-3 col-sm-6 col-xs-6 p_none">
+                  <p class="">
+                    Amsterdam, Netherlands</p>
+                </div>
+                <div class="col-md-2 col-sm-3 col-xs-3 p_none m_none text_r">
+                  <a href="#">Test speed <i class="fas fa-chevron-right"></i></a>
+                </div>
+              </div>
+              <div class="card_internet_test row border-bottom">
+                <div class="col-md-1 col-sm-3 col-xs-3 p_none">
+                  <p class="">AMS2</p>
+                </div>
+                <div class="col-md-6 col-md-offset-3 col-sm-6 col-xs-6 p_none">
+                  <p class="">
+                    Amsterdam, Netherlands</p>
+                </div>
+                <div class="col-md-2 col-sm-3 col-xs-3 p_none m_none text_r">
+                  <a href="#">Test speed <i class="fas fa-chevron-right"></i></a>
+                </div>
+              </div>
+              <div class="card_internet_test row border-bottom">
+                <div class="col-md-1 col-sm-3 col-xs-3 p_none">
+                  <p class="">AMS2</p>
+                </div>
+                <div class="col-md-6 col-md-offset-3 col-sm-6 col-xs-6 p_none">
+                  <p class="">
+                    Amsterdam, Netherlands</p>
+                </div>
+                <div class="col-md-2 col-sm-3 col-xs-3 p_none m_none text_r">
+                  <a href="#">Test speed <i class="fas fa-chevron-right"></i></a>
+                </div>
+              </div>
+              <div class="card_internet_test row border-bottom">
+                <div class="col-md-1 col-sm-3 col-xs-3 p_none">
+                  <p class="">AMS2</p>
+                </div>
+                <div class="col-md-6 col-md-offset-3 col-sm-6 col-xs-6 p_none">
+                  <p class="">
+                    Amsterdam, Netherlands</p>
+                </div>
+                <div class="col-md-2 col-sm-3 col-xs-3 p_none m_none text_r">
+                  <a href="#">Test speed <i class="fas fa-chevron-right"></i></a>
+                </div>
+              </div>
+              <div class="card_internet_test row border-bottom">
+                <div class="col-md-1 col-sm-3 col-xs-3 p_none">
+                  <p class="">AMS2</p>
+                </div>
+                <div class="col-md-6 col-md-offset-3 col-sm-6 col-xs-6 p_none">
+                  <p class="">
+                    Amsterdam, Netherlands</p>
+                </div>
+                <div class="col-md-2 col-sm-3 col-xs-3 p_none m_none text_r">
+                  <a href="#">Test speed <i class="fas fa-chevron-right"></i></a>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+              <div class="card_internet_test row border-bottom">
+                <div class="col-md-1 col-sm-3 col-xs-3 p_none">
+                  <p class="">AMS2</p>
+                </div>
+                <div class="col-md-6 col-md-offset-3 col-sm-6 col-xs-6 p_none">
+                  <p class="">
+                    Amsterdam, Netherlands</p>
+                </div>
+                <div class="col-md-2 col-sm-3 col-xs-3 p_none m_none text_r">
+                  <a href="#">Test speed <i class="fas fa-chevron-right"></i></a>
+                </div>
+              </div>
+              <div class="card_internet_test row border-bottom">
+                <div class="col-md-1 col-sm-3 col-xs-3 p_none">
+                  <p class="">AMS2</p>
+                </div>
+                <div class="col-md-6 col-md-offset-3 col-sm-6 col-xs-6 p_none">
+                  <p class="">
+                    Amsterdam, Netherlands</p>
+                </div>
+                <div class="col-md-2 col-sm-3 col-xs-3 p_none m_none text_r">
+                  <a href="#">Test speed <i class="fas fa-chevron-right"></i></a>
+                </div>
+              </div>
+              <div class="card_internet_test row border-bottom">
+                <div class="col-md-1 col-sm-3 col-xs-3 p_none">
+                  <p class="">AMS2</p>
+                </div>
+                <div class="col-md-6 col-md-offset-3 col-sm-6 col-xs-6 p_none">
+                  <p class="">
+                    Amsterdam, Netherlands</p>
+                </div>
+                <div class="col-md-2 col-sm-3 col-xs-3 p_none m_none text_r">
+                  <a href="#">Test speed <i class="fas fa-chevron-right"></i></a>
+                </div>
+              </div>
+              <div class="card_internet_test row border-bottom">
+                <div class="col-md-1 col-sm-3 col-xs-3 p_none">
+                  <p class="">AMS2</p>
+                </div>
+                <div class="col-md-6 col-md-offset-3 col-sm-6 col-xs-6 p_none">
+                  <p class="">
+                    Amsterdam, Netherlands</p>
+                </div>
+                <div class="col-md-2 col-sm-3 col-xs-3 p_none m_none text_r">
+                  <a href="#">Test speed <i class="fas fa-chevron-right"></i></a>
+                </div>
+              </div>
+              <div class="card_internet_test row ">
+                <div class="col-md-1 col-sm-3 col-xs-3 p_none">
+                  <p class="">AMS2</p>
+                </div>
+                <div class="col-md-6 col-md-offset-3 col-sm-6 col-xs-6 p_none">
+                  <p class="">
+                    Amsterdam, Netherlands</p>
+                </div>
+                <div class="col-md-2 col-sm-3 col-xs-3 p_none m_none text_r">
+                  <a href="#">Test speed <i class="fas fa-chevron-right"></i></a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+      </div>
+      </section> 
+
+
+      <section class="designed text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 ">
+              <h2>Development teams love digitalocean</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3 text-right">CHEV</div>
+            <div class="col-md-6">
+              <div class="rocker-box">
+                <img src="./img/16673e66-0c2f-417b-88bb-f02cc12b8fda_rockerbox-logo-51462da2.png" alt="">
+                <p class="lead">We have been able to make scaling the technical infrastructure of our business cost effective and efficient.</p>
+              </div>
+              <div class="cto">
+                <span><strong>pinco pallino</strong><br></span>
+                <span>co-founder</span>
+                <a href="">read story</a> <i class="fas fa-angle-right"></i>
+              </div>
+            </div>
+            <div class="col-md-3">CHEV</div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <i class="fas fa-circle"></i><i class="far fa-circle"></i
+              ><i class="far fa-circle"></i>
+            </div>
+          </div>
+        </div>
+      </section> 
+
+      <!-- INIZIO FOOTER -->
+      <footer class="site-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="logo-mark"> 
+                <img src="./img/digitalocean-logo-mark.svg" alt=""></div>
+                <div class="copy small">2018 digitalocean, llc. all rights reserved, <br>
+                <span>produced made in ny</span></div>
+                <div class="social">
+                  <ul class="list-inline list-unstyled">
+                    <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                    <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+                    <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                    <li><a href=""><i class="fab fa-youtube"></i></a></li>
+                    <li><a href=""><i class="fab fa -linkedin"></i></a></li>
+                  </ul>
+                </div>
+            </div>
+            <div class="col-md-8">
+              <div class="row">
+              <div class="col-md-3"></div>
+              <div class="col-md-3"></div>
+              <div class="col-md-3"></div>
+              <div class="col-md-3"></div>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="chatboth"></div>
+      </footer>
+
+
+
+
+  
+
+      
+      
+    </main>
+  </body>
+</html>
