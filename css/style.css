@@ -17,9 +17,13 @@ nav {
     margin-bottom: 0 !important;
     border: none !important;
 }
+.
 
  #logo-google {
-     height: 18px;
+     height: 18px !important;
+     width: 5% !important;
+     font-size: 18px;
+     
  }
 
  .logos {
@@ -41,6 +45,14 @@ nav {
      list-style: none;
      color: grey;
      font-size: 2rem;
+ }
+ 
+ .designed{
+   color: #29295a;
+ }
+
+ .features{
+   color: #29295a;
  }
 
  .pdg-0 {
@@ -84,15 +96,14 @@ nav {
   background-color: #031c4e;
 }
 
-
+.text-color{
+  color: white;
+}
 
  .px-5 {
     padding: 0 5px;
   }
   
-  .service .title {
-    padding-top: 4rem;
-  }
   
   .service {
     color: white;
@@ -134,3 +145,79 @@ nav {
   }
   
 
+.pad-mar{
+  padding: 50px;
+  margin: 20px;
+}
+
+
+.rgh-2{
+  margin-top: 40px;
+}
+
+.rgh-3{
+  margin-top: 50px;
+}
+.chev{
+  margin-top: 180px;
+}
+
+.ma-b{
+  margin-bottom: 50px;
+}
+
+.pad{
+  padding: 50px;
+}
+
+.image{
+  width: 100%;
+}
+
+.fas-circle{
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
+.text-blue{
+  color: #0067ff;
+}
+
+
+
+  @media (max-width: 992px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+}
