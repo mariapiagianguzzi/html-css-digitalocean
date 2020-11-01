@@ -221,3 +221,106 @@ nav {
         display:block !important;
     }
 }
+
+.site-footer a{
+  color: #a5b1abbd;
+}
+
+.site-footer, .copy{
+  color: #a5b1abbd;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+/* customers_service */
+#customers_service {
+  background: url(../img/main/customers/bg-map.svg) 50% 50% / cover no-repeat rgb(3, 27, 78);
+}
+
+#box_info_customers,
+#box_infotest,
+#sito_footer .page_list,
+#sito_footer .social_list {
+  padding: 0;
+  list-style: none;
+}
+
+#box_info_customers h2, 
+#box_info_customers p {
+  max-width: 770px;
+}
+
+#box_info_customers .text_link,
+.text_link {
+  color: #0069ff;
+  font-family: 'Sailec';
+  font-size: 20px;
+  line-height: 150%;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
+#box_info_customers p {
+  font-family: 'Sailec-Light';
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 150%;
+  margin: 20px auto 0 auto;
+}
+
+#box_infotest>li:not(:nth-last-child(-n+2)):after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 5px;
+  width: 96%;
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.2);
+
+}
+
+#box_infotest>li {
+  margin: 0;
+  padding: 10px 15px;
+/*   line-height: 40px; */
+}
+
+#box_infotest>li span:first-of-type,
+#box_infotest>li a {
+  padding: 0;
+}
+
+#box_infotest span:first-of-type {
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: left;
+}
+
+#box_infotest span:last-of-type {
+  font-size: 13px;
+  font-family: "Sailec";
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;
+  opacity: 0.6;
+  text-transform: capitalize;
+}
+
+
+#box_infotest a {  
+  color: rgb(0, 215, 210);
+  font-size: 12px;
+  font-family: 'Sailec-Medium','Helvetica','sans-serif';
+  font-style: normal;
+  text-transform: capitalize;
+  text-align: right;
+}
